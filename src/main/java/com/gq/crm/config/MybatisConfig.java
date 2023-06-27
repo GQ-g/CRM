@@ -19,6 +19,7 @@ public class MybatisConfig {
         factoryBean.setDataSource(dataSource);
         factoryBean.setTypeAliasesPackage("com.gq.crm.entity");
         return factoryBean;
+
     }
 
     @Bean
