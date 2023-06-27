@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link rel="stylesheet" th:href="@{/js/zTree_v3-3.5.32/css/zTreeStyle/zTreeStyle.css}" type="text/css">
+	<script type="text/javascript" th:src="@{/js/zTree_v3-3.5.32/js/jquery-3.6.0.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/zTree_v3-3.5.32/js/jquery.ztree.core.js}"></script>
+	<script type="text/javascript" th:src="@{/js/zTree_v3-3.5.32/js/jquery.ztree.excheck.js}"></script>
+</head>
+<body>
+<input type="hidden"  name="roleId" th:value="${roleId}"/>
+
+<div id="test1" class="ztree"></div>
+<script type="text/javascript" th:src="@{/js/role/grant.js}"></script>
+</body>
+</html>
